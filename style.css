@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container nav .box1 {
+    width: 80%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.container nav .box1 a {
+    color: #222;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.container nav .box1 a:hover {
+    text-decoration: underline;
+}
+
+.container nav .box2 a:hover {
+    text-decoration: underline;
+}
+
+.container nav .box2 {
+    width: 20%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.container nav .box2 a {
+    color: #222;
+    text-decoration: none;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+.container nav .box2 a img {
+    width: 20px;
+    position: relative;
+    top: 4px;
+}
+
+nav .sign {
+    width: 70px;
+    height: 30px;
+    background-color: #4285f4;
+    margin-right: 25px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+section {
+    width: 100%;
+}
+
+section .logo {
+    width: 100%;
+    height: 233px;
+}
+
+section .logo img {
+    width: 272px;
+    height: 92px;
+    position: relative;
+    left: 50%;
+    top: 141px;
+    transform: translate(-50%, -30%)
+}
+
+section .search1 {
+    display: block;
+    width: 50%;
+    height: 52px;
+    margin: auto;
+}
+
+section .search2 {
+    text-align: center;
+    width: 582px;
+    height: 44px;
+    margin: auto;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+section .search2:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+section .search2 input {
+    width: 487px;
+    height: 34px;
+    border: none;
+    position: relative;
+    top: 2px;
+    outline: none;
+}
+
+section .search2 .microfone {
+    width: 24px;
+    height: 24x;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+section .search2 .search {
+    width: 21px;
+    height: 17px;
+    position: relative;
+    top: 5px;
+    color: #9AA0A6;
+}
+
+section .buttons {
+    width: 571px;
+    height: 58px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+section .b1 {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+}
+
+section .b2 {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+}
+
+section .button1 {
+    width: 135px;
+    height: 36px;
+    background-color: #e7e0e0;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 4px;
+    padding-top: 6px;
+}
+
+section .button2 {
+    width: 135px;
+    height: 36px;
+    background-color: #e7e0e0;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 4px;
+    padding-top: 6px;
+}
+
+footer {
+    width: 100%;
+    height: 41px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+footer .under {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0%;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+}
+
+footer .under1 {
+    padding-top: 11px;
+}
+
+footer .under1 a {
+    padding-left: 27px;
+}
+
+footer .under2 {
+    padding-top: 11px;
+}
+
+footer .under2 a {
+    padding-right: 27px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline
+}
